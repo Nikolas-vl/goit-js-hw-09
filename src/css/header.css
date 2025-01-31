@@ -2,8 +2,6 @@
   padding: 20px 0;
 }
 .nav {
-  display: flex;
-  justify-content: space-between;
 }
 .nav-logo {
   display: inline-flex;
@@ -12,9 +10,10 @@
 }
 .nav-list {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
+  justify-content: center;
+  gap: 20px;
 }
 .nav-link {
   position: relative;
